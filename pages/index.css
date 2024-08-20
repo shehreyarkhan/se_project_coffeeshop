@@ -1,16 +1,17 @@
-/* Define the Inter font */
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter.ttf") format("truetype");
-  font-weight: 400; /* Regular weight */
+.inter-classic {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; /* Optional, depending on your use case */
+  font-weight: 400; /* Change this value to any weight from 100 to 900 */
   font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-/* Define the Noto Serif font */
-@font-face {
-  font-family: "Noto Serif";
-  src: url("../fonts/NotoSerif.ttf") format("truetype");
-  font-weight: 400; /* Regular weight */
+/* Example with unique class name and font weight */
+.noto-serif-classic {
+  font-family: "Noto Serif", "Times New Roman";
+  font-optical-sizing: auto; /* Optional, depending on your use case */
+  font-weight: 400; /* Change this value to any weight from 100 to 900 */
   font-style: normal;
 }
 
