@@ -17,6 +17,7 @@
 /* Apply the fonts with fallbacks */
 body {
   font-family: "Inter", Arial, sans-serif;
+  margin: 0;
 }
 
 h1,
