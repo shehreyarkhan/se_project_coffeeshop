@@ -217,13 +217,13 @@ h6 {
   flex-direction: column;
 }
 
-.recipes__video {
+.recipes__iframe {
   height: 273px;
   width: 480px;
   border: 0;
 }
 
-.recipes__video-subtitle {
+.recipes__iframe-subtitle {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
