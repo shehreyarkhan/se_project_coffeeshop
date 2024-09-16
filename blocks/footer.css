@@ -24,7 +24,7 @@
   text-align: right;
   color: #fff;
   margin-bottom: 20px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -47,7 +47,7 @@
 
 .footer__social-link {
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -61,7 +61,7 @@
 
 .footer__copyrights {
   margin-top: 108px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #fff;

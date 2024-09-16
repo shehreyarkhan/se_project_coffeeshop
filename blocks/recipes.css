@@ -16,7 +16,7 @@
   max-width: 580px;
   line-height: 52px;
   margin: 100px 0 0 80px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -28,7 +28,7 @@
   margin-top: 24px;
   margin-left: 80px;
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
@@ -57,7 +57,7 @@
 .recipes__iframe-subtitle {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;

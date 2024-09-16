@@ -12,8 +12,8 @@
   margin-bottom: 32px;
   display: block;
   color: #000;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
-  font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -28,35 +28,35 @@
   padding: 15px 20px;
   display: block;
   border-radius: 4px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 input::-webkit-input-placeholder {
   color: #838383;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 input::-ms-input-placeholder {
   color: #838383;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 input::-moz-input-placeholder {
   color: #838383;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 input::placeholder {
   color: #838383;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -72,7 +72,7 @@ input[type="datetime-local"] {
   border-radius: 4px;
   margin-bottom: 32px;
   background-color: #1878dc;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
