@@ -62,11 +62,13 @@
   line-height: 20px;
   color: #6f6f6f;
   text-decoration: none;
+  transition: opacity 0.5s;
 }
 
 .header__about:hover {
   color: #3f96f3;
   cursor: pointer;
+  opacity: 50%;
 }
 
 .header__hours {

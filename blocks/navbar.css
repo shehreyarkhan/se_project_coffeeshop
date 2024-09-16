@@ -29,8 +29,10 @@
   text-decoration: none;
   font-weight: 500;
   cursor: pointer;
+  transition: opacity 0.4s;
 }
 
 .nav__link:hover {
   color: #3f96f3;
+  opacity: 50%;
 }

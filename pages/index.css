@@ -9,21 +9,7 @@
 @import url(../blocks/menu.css);
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
-/* Styling for Inter font */
-.inter-classic {
-  font-family: "Inter", sans-serif;
-  font-weight: 400; /* Change this value to any weight from 100 to 900 */
-  font-style: normal;
-  font-variation-settings: "wdth" 100; /* Adjust or remove if not applicable */
-}
-
-/* Styling for Noto Serif font */
-.noto-serif-classic {
-  font-family: "Noto Serif", "Times New Roman";
-  font-weight: 400; /* Change this value to any weight from 100 to 900 */
-  font-style: normal;
-  font-variation-settings: "wdth" 100; /* Adjust or remove if not applicable */
-}
+@import url(../blocks/footer.css);
 
 /* Apply the fonts with fallbacks */
 body {
