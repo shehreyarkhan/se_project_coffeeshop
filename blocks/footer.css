@@ -17,11 +17,11 @@
 
 .footer__column {
   margin: 0;
+  text-align: left;
 }
 
 .footer__column-heading {
   margin: 0;
-  text-align: right;
   color: #fff;
   margin-bottom: 20px;
   font-family: "Inter", Arial, sans-serif;
@@ -32,11 +32,17 @@
 
 .footer__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__list-item {
   display: flex;
   margin-bottom: 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0px;
 }
 
 .footer__social-icon {
@@ -60,7 +66,7 @@
 }
 
 .footer__copyrights {
-  margin-top: 108px;
+  margin: 108px 0 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;

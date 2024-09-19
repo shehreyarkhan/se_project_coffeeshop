@@ -34,7 +34,7 @@
       <!-- This Header section contain navbar which provides navigation throughout the page 
            and a header page containing title, description, image and a footer -->
       <header class="header">
-        <nav class="nav">
+        <nav class="navbar">
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="NYC Coffee Heaven"
@@ -70,18 +70,15 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__hours">
-            <span class="header__line-break"> Hours: </span>
-            <span class="header__line-break">
-              Monday – Friday (10:00 – 19:00)
-            </span>
-            <span class="header__line-break"
-              >Saturday – Sunday (11:00 – 18:00)</span
-            >
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+
+          <p class="header__paragraph header__paragraph_right">
+            200 Success Avenue, The Town of Triple Peaks
           </p>
-          <a class="header__about" href="#about-us"
-            >200 Success Avenue, The Town of Triple Peaks</a
-          >
         </div>
       </header>
 
@@ -105,10 +102,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__iframe-subtitle">
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
             </div>
             <div class="recipes__video">
               <iframe
@@ -119,10 +116,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__iframe-subtitle">
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -143,6 +140,7 @@
               <label for="number" class="form__label"
                 >Number of guests *
                 <input
+                  required
                   type="number"
                   name="number"
                   id="number"
@@ -155,6 +153,7 @@
               <label for="date" class="form__label"
                 >Date & time *
                 <input
+                  required
                   type="datetime-local"
                   name="date"
                   id="date"
@@ -164,6 +163,7 @@
               <label for="email" class="form__label"
                 >Your email *
                 <input
+                  required
                   type="email"
                   name="email"
                   id="email"
@@ -175,8 +175,14 @@
             <button class="form__button" type="submit" id="submit-btn">
               Book a table
             </button>
-            <label for="agree" class="form__label form__label_checkbox">
-              <input type="checkbox" value="agree" id="agree" />
+            <label for="agree" class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                required
+                class="checkbox"
+                value="agree"
+                id="agree"
+              />
               I agree with the terms of use
             </label>
           </form>
@@ -288,18 +294,22 @@
             <h3 class="footer__column-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  src="./images/facebook_white.svg"
-                  alt="facebook logo"
-                  class="footer__social-icon"
-                /><a class="footer__social-link" href="/">Facebook</a>
+                <a class="footer__social-link" href="/"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
               </li>
               <li class="footer__list-item">
-                <img
-                  src="./images/instagram_white.svg"
-                  alt="instagram logo"
-                  class="footer__social-icon"
-                /><a href="/" class="footer__social-link">Instagram</a>
+                <a href="/" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>

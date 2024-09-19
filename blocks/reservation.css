@@ -1,7 +1,7 @@
 .reservation {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
   align-items: center;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
@@ -20,9 +20,6 @@
 }
 
 .reservation__form {
-  align-items: flex-start;
-  justify-content: start;
-  text-align: start;
   display: flex;
   flex-direction: column;
 }

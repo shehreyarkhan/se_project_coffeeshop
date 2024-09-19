@@ -22,6 +22,7 @@
 
 .header__span-accent {
   display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -46,40 +47,37 @@
 }
 
 .header__footer {
-  margin-top: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-}
-
-.header__about {
-  margin: 0 80px 40px 0px;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
-  text-decoration: none;
-  transition: opacity 0.5s;
-}
-
-.header__about:hover {
-  color: #3f96f3;
-  cursor: pointer;
-  opacity: 50%;
+  margin-top: auto;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .header__hours {
   font-family: "Inter", Arial, sans-serif;
-  margin: 0 0 40px 80px;
+  position: absolute;
   font-weight: 500;
+  bottom: 40px;
+  left: 80px;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
 }
 
-.header__line-break {
+.header__paragraph {
   display: block;
+}
+
+.header__paragraph_right {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  font-size: 16px;
+  color: #6f6f6f;
 }

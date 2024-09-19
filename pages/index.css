@@ -10,18 +10,3 @@
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-/* Apply the fonts with fallbacks */
-body {
-  font-family: "Inter", Arial, sans-serif;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Noto Serif", "Times New Roman", serif;
-}
