@@ -10,6 +10,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 -   Flat BEM file structure
 -   A custom form
 -   CSS animation and transform
+-   Smooth Transitions
 
 ## Plan on improving the project
 
