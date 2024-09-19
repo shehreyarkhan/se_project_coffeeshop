@@ -93,7 +93,7 @@
   margin-right: 12px;
 }
 
-.checkbox[type="checkbox"] {
+.form__checkbox[type="checkbox"] {
   vertical-align: middle;
   accent-color: #1878dc;
   background-image: url(../images/check.svg);
