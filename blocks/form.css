@@ -88,13 +88,12 @@
 .form__checkbox {
   border-radius: 2px;
   vertical-align: middle;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
 
 .checkbox[type="checkbox"] {
-  width: 18px;
-  height: 18px;
   vertical-align: middle;
   accent-color: #1878dc;
   background-image: url(../images/check.svg);
@@ -103,4 +102,5 @@
 .form__label_type_checkbox {
   width: 100%;
   text-align: center;
+  margin: 0 0 120px 0;
 }
