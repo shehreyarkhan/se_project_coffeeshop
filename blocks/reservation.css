@@ -1,13 +1,11 @@
 .reservation {
   display: flex;
   flex-direction: column;
-  text-align: start;
   align-items: center;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
 }
 
 .reservation__title {

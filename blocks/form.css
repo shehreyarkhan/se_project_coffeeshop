@@ -1,17 +1,16 @@
 .form {
-  margin: 0;
+  width: 385px;
 }
 
 .form__fieldset {
   margin: 0;
-  width: 385px;
   padding: 0;
   border: none;
-  box-sizing: border-box;
 }
 
 .form__label {
   margin-bottom: 32px;
+  padding: 0;
   display: block;
   color: #000;
   font-family: "Inter", Arial, sans-serif;
@@ -26,6 +25,7 @@
   margin-top: 8px;
   width: 385px;
   color: #000;
+  box-sizing: border-box;
   padding: 15px 20px;
   display: block;
   border-radius: 4px;
