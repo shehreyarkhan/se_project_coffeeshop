@@ -1,5 +1,5 @@
 .form {
-  width: 385px;
+  max-width: 385px;
 }
 
 .form__fieldset {
